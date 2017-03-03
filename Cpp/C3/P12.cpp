@@ -1,24 +1,28 @@
 #include<iostream>
+#include <cmath>
 using namespace std;
 int main()
 {
 	int data,i,m=0,count[5];
+	int temp;
 	cin>>data;
+	temp = data;
 	for(i=0;i<4;i++)
 	{
-		count[i] = data/(10^(4-i));
+		count[i] = data;
+		data = data/(10^(i));
+		if(data>0) 
+		{
+			m++;
+		}
 	}
-	count[4] = data%1;
-	for(i=0;i<5;i++)
+	cout<<m+1<<endl;
+	for(i=0;i<=m;i++)
+    count[i] = (int)(temp/pow(10,i))%10;
+	for(i=0;i<=m;i++)
 	{
-		if(count[i]>0)
-		m++	;
+		cout<<count[i]<<endl;
 	}
-	cout<<i<<endl;
-	for(i=0;i<m;i++)
-	{
-		data=data-10^(m-1);
-		cout<<data<<endl;
-	}
+	return 0;
 	
 }
