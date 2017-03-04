@@ -1,0 +1,113 @@
+Dependencies for Project 'TEST', Target 'Target 1': (DO NOT MODIFY !)
+F (..\HARDWARE\TIMER\timer.c)(0x58BA2EC7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\SYSTEM\usart-ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\timer_1.o --omf_browse .\timer_1.crf --depend .\timer_1.d)
+I (..\HARDWARE\TIMER\timer.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\sys.h)(0x58BA2E51)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x58BA2E50)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x58BA2E51)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x58BA2E4E)
+I (..\HARDWARE\LED\led.h)(0x58BA2E4B)
+I (..\SYSTEM\delay\delay.h)(0x58BA2E4E)
+F (.\STM32F10x.s)(0x58BA2E3C)(--cpu Cortex-M3 -g --apcs=interwork -ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\stm32f10x.lst --xref -o .\stm32f10x.o --depend .\stm32f10x.d)
+F (.\test.c)(0x58BA2F1B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\SYSTEM\usart-ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\test.o --omf_browse .\test.crf --depend .\test.d)
+I (..\SYSTEM\sys\sys.h)(0x58BA2E51)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x58BA2E50)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x58BA2E51)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x58BA2E4E)
+I (..\SYSTEM\usart\usart.h)(0x58BA2E52)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\SYSTEM\delay\delay.h)(0x58BA2E4E)
+I (..\HARDWARE\LED\led.h)(0x58BA2E4B)
+I (..\HARDWARE\KEY\key.h)(0x58BA2E4A)
+I (..\HARDWARE\EXTI\exti.h)(0x58BA2E48)
+I (..\HARDWARE\WDG\wdg.h)(0x58BA2E4E)
+I (..\HARDWARE\TIMER\timer.h)(0x58BA2E4F)
+I (..\HARDWARE\RTC\rtc.h)(0x58BA2E4D)
+F (..\SYSTEM\delay\delay.c)(0x58BA2E4E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\SYSTEM\usart-ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x58BA2E51)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x58BA2E4E)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x58BA2E50)
+I (..\SYSTEM\delay\delay.h)(0x58BA2E4E)
+F (..\SYSTEM\sys\sys.c)(0x58BA2E51)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\SYSTEM\usart-ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\sys.o --omf_browse .\sys.crf --depend .\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x58BA2E51)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x58BA2E50)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x58BA2E51)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x58BA2E4E)
+F (..\SYSTEM\usart\usart.c)(0x58BA2E52)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\SYSTEM\usart-ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x58BA2E51)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x58BA2E50)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x58BA2E51)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x58BA2E4E)
+I (..\SYSTEM\usart\usart.h)(0x58BA2E52)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\HARDWARE\RTC\rtc.c)(0x58BA2E4C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\SYSTEM\usart-ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
+I (..\HARDWARE\TIMER\timer.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\sys.h)(0x58BA2E51)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x58BA2E50)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x58BA2E51)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x58BA2E4E)
+I (..\HARDWARE\LED\led.h)(0x58BA2E4B)
+I (..\HARDWARE\RTC\rtc.h)(0x58BA2E4D)
+I (..\SYSTEM\delay\delay.h)(0x58BA2E4E)
+F (..\HARDWARE\LED\led.c)(0x58BA2E4B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\SYSTEM\usart-ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (..\HARDWARE\LED\led.h)(0x58BA2E4B)
+I (..\SYSTEM\sys\sys.h)(0x58BA2E51)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x58BA2E50)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x58BA2E51)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x58BA2E4E)
+F (..\HARDWARE\KEY\key.c)(0x58BA2E48)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\SYSTEM\usart-ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\key.o --omf_browse .\key.crf --depend .\key.d)
+I (..\HARDWARE\KEY\key.h)(0x58BA2E4A)
+I (..\SYSTEM\sys\sys.h)(0x58BA2E51)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x58BA2E50)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x58BA2E51)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x58BA2E4E)
+I (..\SYSTEM\delay\delay.h)(0x58BA2E4E)
+F (..\HARDWARE\EXTI\exti.c)(0x58BA2E48)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\SYSTEM\usart-ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\exti.o --omf_browse .\exti.crf --depend .\exti.d)
+I (..\HARDWARE\EXTI\exti.h)(0x58BA2E48)
+I (..\SYSTEM\sys\sys.h)(0x58BA2E51)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x58BA2E50)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x58BA2E51)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x58BA2E4E)
+I (..\HARDWARE\LED\led.h)(0x58BA2E4B)
+I (..\HARDWARE\KEY\key.h)(0x58BA2E4A)
+I (..\SYSTEM\delay\delay.h)(0x58BA2E4E)
+I (..\SYSTEM\usart\usart.h)(0x58BA2E52)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\HARDWARE\TIMER\timer.h)(0x58BA2E4F)
+I (..\HARDWARE\RTC\rtc.h)(0x58BA2E4D)
+F (..\HARDWARE\WDG\wdg.c)(0x58BA2E4D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\SYSTEM\usart-ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\wdg.o --omf_browse .\wdg.crf --depend .\wdg.d)
+I (..\HARDWARE\WDG\wdg.h)(0x58BA2E4E)
+I (..\SYSTEM\sys\sys.h)(0x58BA2E51)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x58BA2E50)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x58BA2E51)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x58BA2E4E)
+I (..\HARDWARE\LED\led.h)(0x58BA2E4B)
+F (..\HARDWARE\TIMER\timer.c)(0x58BA2EC7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\WDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\LCD -I ..\HARDWARE\RTC -I ..\SYSTEM\usart-ID:\BaiduYunDownload\1025\USER\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\timer_1.o --omf_browse .\timer_1.crf --depend .\timer_1.d)
+I (..\HARDWARE\TIMER\timer.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\sys.h)(0x58BA2E51)
+I (..\SYSTEM\sys\stm32f10x_nvic.h)(0x58BA2E50)
+I (..\SYSTEM\sys\stm32f10x_map.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_conf.h)(0x58BA2E4F)
+I (..\SYSTEM\sys\stm32f10x_type.h)(0x58BA2E51)
+I (..\SYSTEM\sys\cortexm3_macro.h)(0x58BA2E4E)
+I (..\HARDWARE\LED\led.h)(0x58BA2E4B)
+I (..\SYSTEM\delay\delay.h)(0x58BA2E4E)
