@@ -1,0 +1,189 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hu kang', q, LIC=PE7GK-Z07VW-RAKDM-XU4K0-77GGS-5HRYX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+D:\BaiduYunDownload\1025\USER\TEST.uvprojx
+Project File Date:  03/04/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling STM32F10x.s...
+compiling delay.c...
+compiling usart.c...
+compiling timer.c...
+..\HARDWARE\TIMER\timer.c(100): warning:  #188-D: enumerated type mixed with another type
+  		  time_out_flag = 1;
+..\HARDWARE\TIMER\timer.c(105): warning:  #188-D: enumerated type mixed with another type
+  		  time_out_flag = 1;
+..\HARDWARE\TIMER\timer.c(110): warning:  #188-D: enumerated type mixed with another type
+  		  time_out_flag = 1;
+..\HARDWARE\TIMER\timer.c(115): warning:  #188-D: enumerated type mixed with another type
+  		  time_out_flag = 1;
+..\HARDWARE\TIMER\timer.c(130): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\TIMER\timer.c: 5 warnings, 0 errors
+compiling rtc.c...
+..\HARDWARE\RTC\rtc.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\RTC\rtc.c: 1 warning, 0 errors
+compiling test.c...
+..\HARDWARE\RTC\rtc.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+test.c(27): warning:  #188-D: enumerated type mixed with another type
+  bool time_out_flag = 0;
+test.c(33): warning:  #188-D: enumerated type mixed with another type
+  bool vibrate_flag = 0;
+test.c(34): warning:  #188-D: enumerated type mixed with another type
+  bool pause_flag = 0;
+test.c(35): warning:  #188-D: enumerated type mixed with another type
+  bool run_flag = 0;
+test.c(36): warning:  #188-D: enumerated type mixed with another type
+  bool off_flag = 1;
+test.c(37): warning:  #188-D: enumerated type mixed with another type
+  bool first_vibrate = 0;
+test.c(38): warning:  #188-D: enumerated type mixed with another type
+  bool time_set = 0;
+test.c(55): warning:  #188-D: enumerated type mixed with another type
+  bool send_flag=1;
+test.c(56): warning:  #188-D: enumerated type mixed with another type
+  bool status_send_flag = 0;
+test.c(58): warning:  #188-D: enumerated type mixed with another type
+  bool first_pause =0;
+test.c(59): warning:  #188-D: enumerated type mixed with another type
+  bool first_virbate =0;
+test.c(97): warning:  #188-D: enumerated type mixed with another type
+  					case ('b'-'0'): send_flag=0;if(!send_flag){printf("s%d",speed[0]);send_flag = 1;}USART_RX_BUF[0]='a'+'0';break;
+test.c(97): warning:  #188-D: enumerated type mixed with another type
+  					case ('b'-'0'): send_flag=0;if(!send_flag){printf("s%d",speed[0]);send_flag = 1;}USART_RX_BUF[0]='a'+'0';break;
+test.c(108): warning:  #188-D: enumerated type mixed with another type
+  					case ('p'-'0'):pause_flag = 1;vibrate_flag = 0;USART_RX_BUF[0]='a'+'0';break;
+test.c(108): warning:  #188-D: enumerated type mixed with another type
+  					case ('p'-'0'):pause_flag = 1;vibrate_flag = 0;USART_RX_BUF[0]='a'+'0';break;
+test.c(109): warning:  #188-D: enumerated type mixed with another type
+  					case ('s'-'0'):pause_flag = 0;vibrate_flag = 1;USART_RX_BUF[0]='a'+'0';break;
+test.c(109): warning:  #188-D: enumerated type mixed with another type
+  					case ('s'-'0'):pause_flag = 0;vibrate_flag = 1;USART_RX_BUF[0]='a'+'0';break;
+test.c(127): warning:  #188-D: enumerated type mixed with another type
+  					case 7: send_flag=0; if(!send_flag){printf("%d status",status);send_flag = 1;}USART_RX_BUF[0]='a'+'0';break; 
+test.c(127): warning:  #188-D: enumerated type mixed with another type
+  					case 7: send_flag=0; if(!send_flag){printf("%d status",status);send_flag = 1;}USART_RX_BUF[0]='a'+'0';break; 
+test.c(130): warning:  #188-D: enumerated type mixed with another type
+  						    send_flag=0;
+test.c(133): warning:  #188-D: enumerated type mixed with another type
+  										send_flag = 1;
+test.c(207): warning:  #188-D: enumerated type mixed with another type
+  						if(num>190) {first_vibrate = 1; run_flag = 1;vibrate_flag =1;off_flag = 0;num = 0;WeakUp = 1; break;}
+test.c(207): warning:  #188-D: enumerated type mixed with another type
+  						if(num>190) {first_vibrate = 1; run_flag = 1;vibrate_flag =1;off_flag = 0;num = 0;WeakUp = 1; break;}
+test.c(207): warning:  #188-D: enumerated type mixed with another type
+  						if(num>190) {first_vibrate = 1; run_flag = 1;vibrate_flag =1;off_flag = 0;num = 0;WeakUp = 1; break;}
+test.c(207): warning:  #188-D: enumerated type mixed with another type
+  						if(num>190) {first_vibrate = 1; run_flag = 1;vibrate_flag =1;off_flag = 0;num = 0;WeakUp = 1; break;}
+test.c(218): warning:  #188-D: enumerated type mixed with another type
+  					first_virbate = 0;
+test.c(220): warning:  #188-D: enumerated type mixed with another type
+  				first_pause = 1;
+test.c(241): warning:  #188-D: enumerated type mixed with another type
+  						    first_vibrate =0;
+test.c(250): warning:  #188-D: enumerated type mixed with another type
+  					first_pause = 0;
+test.c(252): warning:  #188-D: enumerated type mixed with another type
+  				first_virbate = 1;
+test.c(259): warning:  #188-D: enumerated type mixed with another type
+  		    time_out_flag = 0;
+test.c(261): warning:  #188-D: enumerated type mixed with another type
+  			  vibrate_flag = 0;
+test.c(262): warning:  #188-D: enumerated type mixed with another type
+  			  pause_flag = 0;
+test.c(263): warning:  #188-D: enumerated type mixed with another type
+  			  run_flag  =0;
+test.c(264): warning:  #188-D: enumerated type mixed with another type
+  			  off_flag = 1;
+test.c(65): warning:  #177-D: variable "j" was declared but never referenced
+  	u8 i = 0,j = 0;
+test.c(67): warning:  #550-D: variable "cont" was set but never used
+  	u16 cont =0;
+test.c: 38 warnings, 0 errors
+compiling led.c...
+compiling sys.c...
+compiling wdg.c...
+compiling key.c...
+compiling exti.c...
+..\HARDWARE\RTC\rtc.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\EXTI\exti.c(38): warning:  #188-D: enumerated type mixed with another type
+  				pause_flag =1;
+..\HARDWARE\EXTI\exti.c(39): warning:  #188-D: enumerated type mixed with another type
+  				vibrate_flag =0;
+..\HARDWARE\EXTI\exti.c(40): warning:  #188-D: enumerated type mixed with another type
+  				run_flag = 1;
+..\HARDWARE\EXTI\exti.c(41): warning:  #188-D: enumerated type mixed with another type
+  				off_flag = 0;
+..\HARDWARE\EXTI\exti.c(45): warning:  #188-D: enumerated type mixed with another type
+  				pause_flag =0;
+..\HARDWARE\EXTI\exti.c(46): warning:  #188-D: enumerated type mixed with another type
+  				vibrate_flag =1;
+..\HARDWARE\EXTI\exti.c(47): warning:  #188-D: enumerated type mixed with another type
+  				run_flag = 1;
+..\HARDWARE\EXTI\exti.c(48): warning:  #188-D: enumerated type mixed with another type
+  				off_flag = 0;
+..\HARDWARE\EXTI\exti.c: 9 warnings, 0 errors
+compiling timer.c...
+..\HARDWARE\TIMER\timer.c(100): warning:  #188-D: enumerated type mixed with another type
+  		  time_out_flag = 1;
+..\HARDWARE\TIMER\timer.c(105): warning:  #188-D: enumerated type mixed with another type
+  		  time_out_flag = 1;
+..\HARDWARE\TIMER\timer.c(110): warning:  #188-D: enumerated type mixed with another type
+  		  time_out_flag = 1;
+..\HARDWARE\TIMER\timer.c(115): warning:  #188-D: enumerated type mixed with another type
+  		  time_out_flag = 1;
+..\HARDWARE\TIMER\timer.c(130): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\TIMER\timer.c: 5 warnings, 0 errors
+linking...
+.\TEST.axf: Warning: L6304W: Duplicate input file .\timer_1.o ignored.
+Program Size: Code=8974 RO-data=330 RW-data=84 ZI-data=772  
+Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+".\TEST.axf" - 0 Error(s), 59 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\BaiduYunDownload\1025\USER\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

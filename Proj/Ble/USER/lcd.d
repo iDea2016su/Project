@@ -1,0 +1,11 @@
+.\lcd.o: ..\HARDWARE\LCD\lcd.c
+.\lcd.o: ..\HARDWARE\LCD\lcd.h
+.\lcd.o: ..\SYSTEM\sys\sys.h
+.\lcd.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+.\lcd.o: ..\SYSTEM\sys\stm32f10x_map.h
+.\lcd.o: ..\SYSTEM\sys\stm32f10x_conf.h
+.\lcd.o: ..\SYSTEM\sys\stm32f10x_type.h
+.\lcd.o: ..\SYSTEM\sys\cortexm3_macro.h
+.\lcd.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\lcd.o: ..\HARDWARE\LCD\font.h
+.\lcd.o: ..\SYSTEM\delay\delay.h
